@@ -6,6 +6,7 @@ import { Welcome1 } from '../pages/Welcome1';
 import { Welcome2 } from '../pages/Welcome2';
 import { Welcome3 } from '../pages/Welcome3';
 import { Welcome4 } from '../pages/Welcome4';
+import { Anime } from '../pages/Anime';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ export function StackRoutes() {
       <Screen name="Welcome2" component={Welcome2} />
       <Screen name="Welcome3" component={Welcome3} />
       <Screen name="Welcome4" component={Welcome4} />
+      <Screen name="Anime" component={Anime} />
     </Navigator>
   );
 }
